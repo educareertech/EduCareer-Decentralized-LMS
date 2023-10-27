@@ -1,0 +1,559 @@
+/* ==========FORM LAYOUT========== */
+.registeration-form-page{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(10, 106, 141) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  .registeration-form-page .inner-left{
+    color: white;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .registeration-form-page .inner-left p, h2{
+    width: 27vw;
+  }
+  .registeration-form-page .inner-left button{
+    width: 15vw;
+    padding: .5vw 2vw;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    margin-top: 3vw;
+  }
+  .registeration-form-page .inner-right{
+    width: 67vw;
+    margin-right: 3vw;
+    float: right;
+    height: 90vh;
+    background-color: white;
+    border-radius: 12vw 0vw 0vw 12vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .registeration-form-page .inner-right form input{
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #b0b2b5;
+    margin-top: 10px; 
+    padding: .5vw 2vw;
+  }
+  .registeration-form-page .inner-right button{
+    width: 15vw;
+    margin-top: 3vw;
+    background-color: rgb(10, 106, 141);
+    color: white;
+  }
+
+/* =================LOGGED IN MENU=============== */
+.LoggedInLayout{
+    width: 100%;
+    min-height: 30vh;
+    box-sizing: border-box;
+    max-width: 100vw;
+    overflow-y: hidden;
+    padding: 0;
+    margin: 0;
+}
+.LoggedIn-menu{
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    height: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.LoggedIn-menu h3{
+    background-color:cornflowerblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: .5vw 2vw;
+}
+.LoggedIn-menu ul{
+    display: flex;
+    margin-left: 1vw;
+    list-style: none;
+    font-size: 20px;
+}
+.LoggedIn-menu ul li{
+    margin-left: 1vw;
+    font-weight: 600;
+    cursor: pointer;
+}
+.LoggedIn-menu button{
+    margin-right: 3vw;
+}
+/* ==================================== */
+
+.Credential-Dropdown, .getInfo-dropdown{
+    position: relative;
+    display: inline-block;
+    background-color: aliceblue;
+}
+.getInfo-dropdown:hover .getInfo-dropdown-content{
+    display: block;
+    
+}
+
+.Credential-Dropdown:hover .Credential-Dropdown-content{
+    display: block;
+}
+.Credential-Dropdown-content, .getInfo-dropdown-content{
+    position: absolute;
+    margin-left: -5vw;
+    display: none;
+    background-color: aliceblue;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  
+}
+.Credential-Dropdown-content ul, .getInfo-dropdown-content ul{
+    margin-bottom: 2vw;
+    min-width: 17vw;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.Credential-Dropdown-content ul li, .getInfo-dropdown-content ul li{
+    margin: 2vw 0 0 2vw;
+    min-width: 22vw;
+}
+.Credential-Dropdown-content li:hover, .getInfo-dropdown-content li:hover{
+    background-color: #ddd;
+}
+.switchButtons{
+    margin-right: 1vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.switchButtons button{
+    padding: .5vw 1.5vw;
+    border: 1px solid rgb(14, 71, 121);
+}
+.activeButton{
+    color: white;
+    background-color: rgb(14, 71, 121);
+
+}
+/* ========================VC COMPONENT========================== */
+.VC-Component{
+    display: flex;
+    justify-content: center;
+}
+.VC-Component-Menu{
+    background-color: #064976;
+    width: 20%;
+    height: 100vh;
+}
+.VC-Component-Menu ul {
+    padding: 0%;
+}
+.VC-Component-Menu ul li{
+    background-color: #0fa7de;
+    list-style: none;
+    padding: 1vw 0 1vw 2vw;
+    margin-top: 2vw;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.VC-Component-Page{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+/* ================HEADER==================== */
+.defaultLayout{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: rgb(45, 172, 231);
+    display: flex;
+    justify-content: center;
+    height: 11vw;
+}
+.header .inner{
+    box-sizing: border-box;
+    background-color: white;
+    width: 85vw;
+    height: 8vw;
+    border-radius: 0px 0px 1.2vw 1.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .inner img{
+    width: 10vw;
+    height: 8vw;
+    margin-left: 2vw;
+}
+.header .inner ul {
+    display: flex;
+    list-style-type: none;
+    font-weight: bold;
+    justify-self: flex-end;
+    margin-top: 1.5vw;
+    margin-right: 4.5vw;
+}
+.header .inner ul li {
+    cursor: pointer;
+}
+.header .inner ul li:not(:first-of-type){
+    margin-left: 1.5vw;
+}
+.header .inner .buttonGroup{
+    display: flex;
+}
+
+.header .inner button{
+    margin: 1vw;
+    padding: 1.2vw 0vw;
+    width: 10vw;
+    border: none;
+    border-radius: 5vw;
+}
+
+.header .inner .buttonGroup :nth-child(1){
+    background-color: rgb(221, 221, 226);
+}
+.header .inner .buttonGroup :nth-child(2){
+    background-color: rgb(45, 172, 231);
+    color: white;
+}
+.becomeProviderBtn{
+    padding: 1.2vw 12vw;
+    background-color: #323E48;
+}
+.content{
+    min-height: 90vh;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.HeaderLayout{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1.5vw 1vw;
+    margin: 0;
+    overflow-y: hidden;
+    background-color: #0fa7de;
+}
+.HeaderLayout-Inner{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+.HeaderLayout-Inner img {
+    width: 10vw;
+    height: 5vw;
+}
+.header .inner .button{
+    width: 10vw;
+    background-color: rgb(16, 16, 91);
+}
+.content{
+    height: 90vh;
+    width: 100%;
+    min-height: 90vh;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} */
+
+/* ========================ADMIN SIDE NAV======================== */
+.adminDashboard{
+    display: flex;
+    
+    width: 100%;
+
+}
+.adminDashboard .sideNav{
+    width: 18%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    min-height: 100vh;
+    padding: 0;
+}
+
+.sideNavLogoDiv{
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.sideNavLogoDiv img{
+    width: 12vw;
+    height: 10vw;
+}
+.adminDashboard .sideNav ul{    
+    width: 100%;
+    margin: 3vw 0 0 0vw;
+    padding: 0;
+
+}
+.adminDashboard .sideNav ul li {
+    list-style: none;
+    width: 100%;
+    margin-top: 1vw;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    padding: 1vw 2vw;
+    /* border-radius: 10px; */
+    color: gray;
+    cursor: pointer;
+}
+.adminDashboard .sideNav ul li:hover{
+    background-color: #aebcc2;
+}
+.adminDashboard .sideNav ul span{
+    cursor: pointer;
+    color: rgb(114, 167, 207);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    display: flex;
+    margin: .5vw 0 0 2vw;
+    padding: .5vw 1vw;
+    border-radius: 15px;
+    color: rgb(166, 159, 159);
+}
+.AdminSideNavmainContent{
+    position: relative;
+    left: 0%;
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.adminDashboard{
+    display: flex;
+    width: 100%;
+}
+/* Top Nav */
+.adminDashboard .topNav{
+    background-color: #1992E0;
+    height: 10vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.topNav .topNavMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70%;
+    width: 94%;
+}
+
+.topNavMenuRight{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.topNavMenuRight img{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.topNavMenuRight i{
+    color: white;
+}
+.dynamicContent{
+    
+    margin-top: -4vw;
+    background-color: white;
+    min-height: 100vh;
+    border-radius: 10px 10px 0 0 ;
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.dynamicContent .navigator{
+    width: 100%;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    padding-left: 2vw;
+}
+.dynamicContent .navigator span{
+    color: gray;
+    margin-left: 2vw;
+}
+/* ========================PORTAL LAYOUT======================== */
+/* .portalLayout{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+.portalLayout .userCard{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.portalMainPage{
+    width: 70%;
+} */
+/* ===========Portal Card============== */
+/* .card{
+    width: 18vw;
+    height: 31vw;
+    background-color: white;
+}
+.cover-image{
+    width: 100%;
+    height: 10vw;
+    position: absolute;
+    top:0%;
+    left: 0%;
+}
+.user-image{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    position: relative;
+    top: 40%;
+    border: 6px solid white;
+}
+.card .name{
+    margin-top: 3vw;
+}
+.card h4{
+    color: gray;
+}
+.card button{
+    padding: 10px 5vw;
+    background-color: rgb(80, 144, 240);
+    border: none;
+    margin-top: 3vw;
+} */
+/* ==================MENU LAYOUT================== */
+.menuLayout div ul{
+    align-items: start;
+    margin: 0;
+    padding: 0;
+}
+.menuLayout div ul li{
+    list-style: none;
+    color: white;
+    background-color: rgb(19, 123, 123);
+    margin-top: 2vw;
+    padding: 1vw 1vw;
+    cursor: pointer;
+    /* float: ; */
+}
+.heading{
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+}
+.heading h2{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    width: 30vw;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+    padding: 0.8vw;
+    color: white;
+}
+
+/* =================FOOTER================= */
+.footerLayout{
+    background-color: #323E48;
+}
+.Row1{
+    width: 100%;
+    display: flex;
+}
+.Row1 .logo{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.footerLayout-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.footerLayout .logo img{
+    width: 10vw;
+    height: 5vw;
+    /* border-radius: .5vw .5vw; */
+}
+/* .footerLayout .icons{
+    margin-top: 3vw;
+} */
+.footerLayout .icons > * {
+    color: white;
+    font-size: 25px;
+    margin-right: 2vw;
+}
+.footerLayout .footerMenu{
+    list-style: none;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    margin-top: 1vw;
+}
+.footerLayout .footerMenu li{
+    margin-right: 2vw;
+}
+.Row2 {
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-around;
+}
+.Row2 .services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    /* justify-content: center; */
+}
+.Row2 .services h3{
+    font-weight: 500;
+}
+.Row2 .services div{
+    text-align: center;
+    margin-top: 1vw;
+}
+/* .Row2 .services div p{
+    line-height: 15px;
+} */
+.Row2 .contactInfo{
+    color: white;
+    width: 43vw;
+}
+.contactBox{
+    display: flex;
+    color: rgb(204, 196, 196);
+}
+.contactBox i > *{
+    font-size: 3vw;
+    color: rgb(157, 150, 150);
+}

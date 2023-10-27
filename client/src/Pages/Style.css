@@ -1,0 +1,1602 @@
+/* =============== GENERAL STUFF ============ */
+.boxShadow {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.fancyHeading {
+    background-color: #064976;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+    color: white;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NoInformationYet {
+    width: 100%;
+    height: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btnGroup {
+    margin-top: 3vw;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.generalButton {
+    background-color: #1992E0;
+    color: white;
+    padding: .7vw 1vw;
+    min-width: 10vw;
+    margin-right: 5px;
+    border: none;
+}
+
+.generalButton:hover {
+    background-color: #2773a6;
+}
+
+.GeneralForm {
+    border: 1px solid gray;
+    padding: 2vw 2vw;
+    border-radius: 10px;
+    min-width: 40vw;
+}
+
+.GeneralForm input {
+    outline: none;
+    width: 20vw;
+    padding: .5vw 1vw;
+    border: 1px solid gray;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.GeneralForm textarea {
+    width: 20vw;
+}
+
+.GeneralInput {
+    outline: none;
+    width: 20vw;
+    padding: .3vw 1vw;
+    border: 1px solid gray;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.GeneralForm select {
+    width: 20vw;
+    padding: .5vw 1vw;
+    border: 1px solid gray;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+/* -------- General Table Stuff */
+.GeneralTable {
+    margin-top: 5vw;
+    border: 2px solid gray;
+    padding: 3vw;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.GeneralTable table {
+    text-align: center;
+    width: 65vw;
+}
+
+.GeneralTable table tr,
+.GeneralTable table th {
+    border: 2px solid gray;
+}
+
+.GeneralTable table td,
+.GeneralTable table th {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    box-sizing: border-box;
+}
+
+.GeneralTable table button {
+    border: none;
+    color: white;
+    background-color: #0f8bde;
+    padding: .5vw .5vw;
+}
+
+/* -------- General Verticle Table Stuff----------- */
+.GeneralVerticleTable {
+    width: 80%;
+    margin-top: 1vw;
+    border: 2px solid gray;
+    padding: 3vw;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.GeneralVerticleTable tr {
+    border: 2px solid gray;
+}
+
+/* General Flex */
+.GeneralFlexCenterRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.GeneralFlexCenterCol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* General Modal */
+.SmallModal {
+    background-color: #63727f;
+    color: white;
+    box-sizing: border-box;
+    width: 50vw;
+    height: 30vw;
+    position: absolute;
+    top: 18%;
+    left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.BigModal {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BigModal .bigModalInner {
+    width: 60vw;
+    height: 80%;
+    background-color: #09578b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0vw 2vw 0vw 2vw;
+    padding-bottom: 2vw;
+    color: white;
+}
+
+/* =================WELCOME LANDING PAGE=============== */
+.welcomeLandingSection {
+    background-color: #064976;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.welcomeLandingSection .ImageDiv {
+    margin-top: 4vw;
+    width: 90%;
+    height: 35vw;
+    position: relative;
+}
+
+.welcomeLandingSection .ImageDiv img {
+    border: 10px solid white;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    position: relative;
+}
+.welcomeLandingSection .ImageDiv .heading{
+    color: white;
+    position: absolute;
+    width: 40vw;
+    top: 28%;
+    left: 27%;
+    text-align: center;
+    background-color: #064976;
+    backdrop-filter: blur(10px);
+    padding: 3vw 2vw;
+    border: 3px solid rgb(0, 149, 255);
+}
+.welcomeLandingSection .mainPageBoxes{
+    display: flex;
+    justify-content: center;
+}
+.mainPageBoxes{
+    width: 80%;
+    margin-top: 5vw;
+}
+.welcomeLandingSection .mainPageBoxes div{
+    width: 15vw;
+    height: 15vw;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+}
+.welcomeLandingSection .mainPageBoxes div:hover{
+    /* opacity: .9; */
+    color: white;
+    margin-left: 0vw;
+    z-index: 1;
+}
+.mainPageBoxes div i > * {
+    font-size: 4vw;
+}
+.mainPageBoxes div:nth-child(1){
+    background-color: #26bad7;
+}
+.mainPageBoxes div:nth-child(2){
+    background-color: #30e65a;
+    /* margin: .5vw 0vw 0 -2vw; */
+    margin-left: -6vw;
+}
+.mainPageBoxes div:nth-child(3){
+    background-color: #dc8d33;
+    margin-left: -6vw;
+}
+.mainPageBoxes div:nth-child(4){
+    background-color: #0da7c9;
+    margin-left: -6vw;
+
+}
+
+/* =================LANDING PAGE=============== */
+.mainPage {
+    opacity: .8;
+    display: flex;
+    height: 90vh;
+}
+
+.mainPageRight {
+    width: 50%;
+}
+
+.mainPageRight img {
+    width: 100%;
+    height: 100%;
+}
+
+.mainPageLeft {
+    width: 50%;
+    height: 100%;
+}
+
+.mainPageLeft>div {
+    width: 80%;
+    margin-left: 10vw;
+}
+
+.mainPageLeft h5 {
+    margin-top: 3vw;
+}
+
+/* =================SERVICES=============== */
+.Servcies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245, 236, 236);
+    height: 100vh;
+}
+
+.ServicesHeadings {
+    text-align: center;
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+}
+
+.ServicesCards {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ServicesCards .cardBox {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    text-align: center;
+    width: 25vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ServicesCards .cardBox:hover {
+    background-color: #687ab9;
+    color: white;
+}
+
+.ServicesCards .cardBox i {
+    width: 100%;
+    height: 50%;
+}
+
+.ServicesCards .cardBox i>* {
+    font-size: 10vw;
+}
+
+.ServicesCards .cardBox p {
+    width: 80%;
+}
+
+/* =================VISION AND MISSION=============== */
+.visionAndMission {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.visionAndMissionLeft {
+    width: 50%;
+}
+
+.visionAndMissionLeft img {
+    width: 100%;
+    height: 30vw;
+}
+
+.visionAndMissionRight {
+    width: 50%;
+}
+
+.visionAndMissionRight-Inner {
+    width: 80%;
+    height: 80%;
+}
+
+.visionBox {
+    display: flex;
+    align-items: center;
+}
+
+.visionBox h3 {
+    margin-left: 2vw;
+    font-weight: 600;
+}
+
+.visionAndMissionRight-Inner p {
+    margin-left: 3.7vw;
+    width: 30vw;
+}
+
+/* =================OUR MASTERS=============== */
+.Masters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245, 236, 236);
+    height: 100vh;
+}
+
+.ServicesHeadings {
+    text-align: center;
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+}
+
+.MasterCards {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.MasterCards .cardBox {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    text-align: center;
+    width: 20vw;
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.MasterCards .cardBox:hover {
+    background-color: #687ab9;
+    color: white;
+}
+
+.MasterCards .cardBox i {
+    width: 100%;
+    height: 50%;
+}
+
+.MasterCards .cardBox i>* {
+    font-size: 8vw;
+    margin-top: 2vw;
+}
+
+.MasterCards .cardBox p {
+    width: 80%;
+}
+
+/* =================PRE PORTAL=============== */
+.LMSPortal {
+    height: 90vh;
+    display: flex;
+}
+
+.LMSPortalLeft {
+    width: 50%;
+    height: 100%;
+}
+
+.LMSPortalLeft div {
+    width: 40vw;
+    height: 60vh;
+}
+
+.LMSPortalRight {
+    width: 50%;
+    height: 100%;
+}
+
+.LMSPortalRight div {
+    width: 45vw;
+    height: 60vh;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.LMSPortalRight div h1 {
+    font-weight: 600;
+}
+
+.LMSPortalRight div p {
+    font-weight: 600;
+    color: #0f8bde;
+}
+
+.FancyButton {
+    background-color: #0fa7de;
+    border-radius: 20px;
+    border: none;
+    padding: .5vw 2vw;
+    margin-top: 10px;
+}
+
+.FancyButton:hover {
+    background-color: #064976;
+    color: white;
+}
+
+/* ================== */
+.LMSPrices {
+    height: 90vh;
+}
+
+.PriceBoxes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.PriceBoxes .Box {
+    box-sizing: border-box;
+    padding-top: 2vw;
+    height: 30vw;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.PriceBoxes .Box p span {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.PriceBoxes .Box .lineDiv {
+    width: 100%;
+    height: 4px;
+    background-color: #064976;
+    margin-bottom: 1vw;
+}
+
+.PriceBoxes .Box ul {
+    padding: 0;
+    width: 22vw;
+    text-align: start;
+}
+
+.PriceBoxes .Box ul li {
+    list-style-type: none;
+}
+
+.PriceBoxes .Box ul li::before {
+    content: '✓';
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.PriceBoxes .Box button {
+    margin-top: 2vw;
+}
+
+.PriceBoxes .Box button:hover {
+    background-color: #1869a0;
+}
+
+
+.showShadow {
+    position: fixed;
+    top: 25%;
+    right: 5%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Create Institute Modal */
+.CreateInstituteModal {
+    background-color: rgb(201, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    height: 40vw;
+    width: 60vw;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CreateInstituteModal form input {
+    padding: 1vw 4vw;
+    border: none;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+/* =================TECH SERVICES=============== */
+.TechServices {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.WebServices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    margin-top: 5vw;
+    width: 95%;
+    padding-bottom: 4vw;
+    border-radius: 20px;
+}
+
+.WebServices>div {
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.WebServices>h1 {
+    margin: 2vw 0 3vw 0;
+
+}
+
+.WebServices>div>div {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    width: 40vw;
+    height: 35vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0vw 2vw;
+    background-color: #527db0;
+    align-items: center;
+    position: relative;
+    color: white;
+}
+
+.WebServices>div>div>button {
+    position: absolute;
+    bottom: 5%;
+    border: none;
+    width: 10vw;
+    padding: .5vw .5vw;
+}
+
+.WebServices>div>div>button:hover {
+    background-color: #106095;
+    color: white;
+}
+
+.WebServices div div h3 {
+    /* color: wheat; */
+    font-weight: 600;
+    border-radius: 20px;
+    padding: .5vw 2vw;
+    margin-top: 2vw;
+}
+
+.line {
+    height: 5px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 2vw;
+}
+
+.WebServices div div p {
+    color: white;
+}
+
+/* =================ADMIN=============== */
+.AdminDashboard {
+    width: 80%;
+    margin-top: 2vw;
+}
+
+.AdminDashboard .boxes {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 4vw;
+}
+
+.AdminDashboard .box {
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 25vw;
+    height: 10vw;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.AdminDashboard .box:hover {
+    background-color: rgb(229, 226, 226);
+}
+
+.AdminDashboard .box div {
+    margin-top: 2vw;
+    text-align: center;
+    line-height: 5px;
+}
+
+.AdminDashboard .box span {
+    font-weight: 600;
+    color: gray;
+}
+
+.AdminDashboard .box i {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AdminDashboard .box i>* {
+    font-size: 4vw;
+}
+
+/* =================PROCEED APPLICATION==================== */
+.applicationProceed {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.applicationProceedCard {
+    width: 50vw;
+    height: 25vw;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.applicationProceedCard button {
+    border: none;
+    margin-bottom: 2vw;
+    background-color: #d97a6b;
+    padding: 1vw 3vw;
+}
+
+.applicationProceed button:nth-child(2) {
+    background-color: #6bd96b;
+}
+
+/* =================Add Qualification==================== */
+.addQualifForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addQualifForm form {
+    margin-top: 5vw;
+}
+
+.addQualifForm button {
+    margin-top: 1vw;
+}
+
+/* =================Add Qualification==================== */
+.AllQualifications {
+    margin-top: 5vw;
+}
+
+/* =================REGISTER PAGE==================== */
+.IssueCertModalInner form {
+    /* background-color: red; */
+    width: 80%;
+    height: 80%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* =================LOGIN PAGE=================== */
+.Login {
+    height: 100%;
+}
+
+.Login form input,
+.Register form input {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 25vw;
+    margin-top: 10px;
+}
+
+/* ===========WELCOME PAGE========= */
+/* .Welcome {
+    height: 90vh;
+}
+
+.btn1 {
+    margin-top: 10px;
+    padding: .8vw 0vw;
+    border-radius: 20px;
+    background-color: #BB2D0F;
+    width: 20vw;
+    color: white;
+} */
+
+/* .BlcDevServices {
+    width: 20vw;
+    height: 20vw;
+    background-image: url('../../public/dark.jpg');
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+} */
+
+/* =================Qualifications========= */
+.qualification {
+    display: flex;
+}
+
+.qualification-menu {
+    background-color: #064976;
+    width: 20%;
+    min-height: 100vh;
+}
+
+.qualification-menu ul {
+    padding: 0%;
+}
+
+.qualification-menu ul li {
+    background-color: #0fa7de;
+    list-style: none;
+    padding: 1vw 0 1vw 2vw;
+    margin-top: 2vw;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.QualificationMainPage {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchQualifById {
+    height: 3.5vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: white; */
+    margin-top: 2vw;
+    border: 1px solid white;
+    border-radius: 30px;
+
+    /* border: 2px solid red; */
+}
+
+.searchQualifById input {
+    color: white;
+    outline: none;
+    background: none;
+    border: none;
+    margin-left: .4vw;
+    width: 15vw;
+    padding: .5vw 1vw;
+}
+
+.searchQualifById input::placeholder {
+    color: white;
+}
+
+.searchQualifById i>* {
+    font-size: 2.5vw;
+    color: #cad1d3;
+    cursor: pointer;
+}
+
+/* =================ABOUT US=============== */
+.AboutUs {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.AboutUs-Block {
+    background-color: #064976;
+    height: 60vh;
+    margin-top: 5vw;
+    border-radius: 30px;
+    color: white;
+}
+
+.AboutUs-Block {
+    box-sizing: border-box;
+    padding: 40px 0 0 20px;
+    width: 80%;
+}
+
+.AboutUs-Block p {
+    line-height: 25px;
+    width: 90%;
+}
+
+/* ====================DEVELOPERS======================= */
+.Developers {
+    margin-top: 5vw;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+}
+
+.Developers .first {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Developers .second {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.dev-card {
+    text-align: center;
+}
+
+.dev-card-inner {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    margin-top: 1vw;
+    width: 30vw;
+    height: 25vw;
+}
+
+.dev-card-inner button {
+    margin-top: 1vw;
+    padding: .5vw 1vw;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.dev-card-inner button:hover {
+    background-color: rgb(173, 168, 168);
+}
+
+.dev-card-inner button a {
+    text-decoration: none;
+    color: black;
+}
+
+.dev-card img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+.dev-card h5 {
+    font-weight: bold;
+    color: #797676;
+}
+
+/* ===========START APPLICATION========= */
+.startApplication form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2vw;
+    box-sizing: border-box;
+    margin-top: 3vw;
+    border: 2px solid rgb(189, 186, 186);
+    width: 70vw;
+    margin-bottom: 4vw;
+    border-radius: 20px;
+}
+
+.RadioButtonDiv input {
+    width: 5vw;
+}
+
+.startApp-inner div {
+    display: flex;
+    flex-direction: column;
+}
+
+.start-application form label {
+    font-size: 1.5vw;
+}
+
+.startApplication form select {
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: '5px';
+    border-color: '#ccc';
+    background-color: '#f8f9fa';
+}
+
+.selectedSubjectsDiv {
+    display: flex;
+}
+
+.selectedSubjectsDiv button {
+    width: 20px;
+    border: none;
+    background-color: rgb(221, 216, 216);
+}
+
+.selectedSubjectsDiv p {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 2px 0;
+    padding: .2vw 1vw;
+    border: 1px solid gray;
+    width: 17vw;
+}
+
+
+/* ====VIEW APPLICATION MODAL */
+.ViewApplication {
+    background-color: #07446d;
+    border-radius: 10px;
+    padding-bottom: 1.5vw;
+    border: none;
+    position: absolute;
+    top: -7%;
+    left: 14%;
+    color: white;
+}
+
+
+/* ===============STUDENTS PAGE============== */
+/* .StudentsPage {
+    display: flex;
+}
+
+.StudentsPage .sideMenu {
+    background-color: #064976;
+    width: 20%;
+    height: 100vh;
+}
+
+.StudentsPage .sideMenu ul {
+    padding: 0%;
+}
+
+.StudentsPage .sideMenu ul li {
+    background-color: #0fa7de;
+    list-style: none;
+    padding: 1vw 1.5vw;
+    margin-top: 2vw;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.StudentsPage .fullPage {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vw;
+    align-items: center;
+} */
+
+/* =============== PROVIDER PROFILE ============ */
+.ProviderAdminProfile {
+    width: 97%;
+    display: flex;
+    margin-top: 4vw;
+    border: 2px solid rgb(163, 159, 159);
+    border-radius: 5px;
+
+}
+
+.ProviderProfile table {
+    margin-top: 4vw;
+    width: 60vw;
+}
+
+.tdProviderAddress {
+    cursor: pointer;
+}
+
+.tdProviderAddress span {
+    visibility: hidden;
+    width: 60px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    font-size: 10px;
+    position: absolute;
+    margin-right: 5vw;
+    z-index: 1;
+}
+
+.tdProviderAddress:hover span {
+    visibility: visible;
+}
+
+/* =============== GET REGISTERED CERTIFICATES ============ */
+/* ====================CERTIFICATES======================= */
+.certificate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.certificate .btns {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.certificate .credentialBtn {
+    background-color: #064976;
+    color: white;
+    border: solid white 2px;
+    margin-left: 20px;
+    padding: .5vw 2vw;
+    border-radius: 20px;
+}
+
+.presentButton {
+    border-radius: 5px;
+    background-color: #093162;
+    color: white;
+    border: solid white 2px;
+    padding: .5vw 2vw;
+}
+
+.certificate-table {
+    width: 70vw;
+    border: 2px solid rgb(143, 138, 138);
+    margin-top: 2vw;
+    text-align: center;
+    background-color: #87a4b7;
+}
+
+.certificate-table td,
+.certificate-table th {
+    border: gray 1px solid;
+    box-sizing: border-box;
+}
+
+.certificate-table .attr-key-val {
+    width: 18vw;
+    text-align: center;
+    align-content: center;
+}
+
+/* =================CREDENTIALS=============== */
+.Credentials table button {
+    margin: 1vw .5vw 0 0;
+}
+
+.keyValues {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25vw;
+    overflow-y: scroll;
+    padding-right: 4vw;
+    box-sizing: border-box;
+}
+
+
+/* =============== TEACHER PORTAL ============ */
+.TeacherDashboard {
+    width: 80%;
+    margin-top: 4vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.TeacherDashboard .box {
+    cursor: pointer;
+    width: 20vw;
+    height: 10vw;
+    margin-top: 2vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.TeacherDashboard .box:hover {
+    background-color: #aebcc2;
+}
+
+.TeacherDashboard .box i>* {
+    font-size: 4vw;
+}
+
+/* ==========TECHER PROFILE======== */
+.profileBox {
+    width: 30vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.profileBox img {
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+}
+
+.profileBox h3 {
+    margin-top: 5px;
+    color: gray;
+}
+
+/* =============== MY CERTIFICATES ============ */
+.certificateTemp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin: 3vw auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+}
+
+.certificateTemp h1 {
+    color: #333;
+}
+
+.certificateTemp p {
+    color: #555;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.signature {
+    margin-top: 40px;
+}
+
+.signature img {
+    width: 200px;
+    height: auto;
+}
+
+.date {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.QRDiv {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.downloadPDFBtnDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* =================USER PROFILE=============== */
+.userProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 10vw;
+}
+
+.userProfile-btnGroup {
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: -20%;
+}
+
+
+.tdProviderAddress {
+    cursor: pointer;
+}
+
+.tdProviderAddress span {
+    visibility: hidden;
+    width: 60px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    font-size: 10px;
+    /* Position the tooltip text */
+    position: absolute;
+    margin-right: 5vw;
+    z-index: 1;
+}
+
+.tdProviderAddress:hover span {
+    visibility: visible;
+}
+
+/* .ProviderProfile table button {
+    margin-top: 10px;
+} */
+
+/* =================GET USER INFO===============
+.getUserInfo {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.getUserInfo-left {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.getUserInfo-left form {
+    width: 30vw;
+    height: 30vw;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.getUserInfo-left form>* {
+    width: 20vw;
+}
+
+.getUserInfo-left button {
+    margin-top: 10px;
+    background-color: #064976;
+    border: none;
+    padding: .5vw 2vw;
+    color: white;
+}
+
+.getUserInfo-right {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.getUserInfo-right table {
+    width: 10vw;
+    height: 30vw;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+} */
+
+/* ================= GET CREDENTIAL INFO =============== */
+/* .getCredentialInfo-right {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.getCredentialInfo-right table {
+    width: 40vw;
+    height: 30vw;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    text-align: center;
+}
+
+.getCredentialInfo-right table th {
+    width: 100%;
+    border: none;
+}
+
+.getCredentialInfo-right table td {
+    border: none;
+    width: 100%;
+} */
+
+/* =================ABOUT US===============  */
+.AboutUs {
+    text-align: start;
+}
+
+.AboutUs-Block {
+    background-color: #064976;
+    height: 60vh;
+    margin-top: 5vw;
+    border-radius: 30px;
+    color: white;
+}
+
+.AboutUs-Block {
+    box-sizing: border-box;
+    padding: 40px 0 0 20px;
+    width: 80%;
+}
+
+.AboutUs-Block p {
+    line-height: 25px;
+    width: 90%;
+}
+
+/* =================MAIN HOME PAGE=============== */
+.HomePage {
+    box-sizing: border-box;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.HomePage>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+.HomePage-inner {
+    background-color: #064976;
+    height: 100vh;
+    width: 85vw;
+    margin-top: 2.8vw;
+    border-radius: 2vw;
+    display: flex;
+}
+
+.HomePage-inner-left {
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.HomePage-inner-left p {
+    margin-top: 2vw;
+}
+
+.HomePage-inner-left>* {
+    width: 40vw;
+}
+
+.HomePage-inner-left>button {
+    border: none;
+    background-color: #1992E0;
+    padding: .5vw 2vw;
+    color: white;
+    margin-top: 3vw;
+    border-radius: 30px;
+    width: 20vw;
+}
+
+.HomePage-inner-right {
+    width: 50%;
+}
+
+.HomePage-inner-right img {
+    width: 42.5vw;
+    height: 100vh;
+    border-radius: 0 2vw 2vw 0;
+}
+
+.self-sovereign {
+    box-sizing: border-box;
+    overflow-y: hidden;
+    background-color: #e2e7eb;
+    width: 98.75vw;
+    margin-top: 2.8vw;
+    display: flex;
+}
+
+.self-sovereign-left {
+    width: 50%;
+}
+
+.self-sovereign-left img {
+    width: 40vw;
+    height: 40vw;
+}
+
+.self-sovereign-right {
+    width: 50%;
+    text-align: start;
+}
+
+.self-sovereign-right * {
+    width: 40vw;
+}
+
+.verifiable-credentials {
+    height: 70vh;
+    width: 98.75vw;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.verifiable-credentials-left {
+    width: 50vw;
+    text-align: center;
+}
+
+.verifiable-credentials-left>* {
+    width: 45vw;
+}
+
+.verifiable-credentials-right {
+    width: 50vw;
+}
+
+.verifiable-credentials-right img {
+    width: 35vw;
+    height: 25vw;
+    border-radius: 20px;
+}
+
+.verification {
+    width: 98.75vw;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    height: 90vh;
+    background-color: #e2e7eb;
+    margin-top: 4vw;
+}
+
+.verification-left {
+    width: 45vw;
+}
+
+.verification-left>* {
+    width: 45vw;
+}
+
+.verification-right {
+    width: 40vw;
+}
+
+.verification-right img {
+    width: 40vw;
+    height: 30vw;
+    border-radius: 10px;
+}
+
+.did {
+    width: 98.75vw;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 3vw;
+    height: 70vh;
+}
+
+.did-left {
+    width: 50vw;
+}
+
+.did-left img {
+    width: 40vw;
+    height: 25vw;
+    border-radius: 10px;
+}
+
+.did-right {
+    width: 50vw;
+
+}
+
+.did-right>* {
+    width: 40vw;
+}
+
+
+/* ===================================== */
