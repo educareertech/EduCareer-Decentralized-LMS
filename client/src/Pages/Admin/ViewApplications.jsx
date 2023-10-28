@@ -52,7 +52,7 @@ function ViewApplications() {
   // ================== APPLICANT DETAILS =============
   const ApplicantDetail = async (item, index) => {
     console.log(index);
-    localStorage.setItem('ApplicationIndex', index);
+    sessionStorage.setItem('ApplicationIndex', index);
     setApplicantDetail(item);
     setIsOpen(true);
     console.log(item)

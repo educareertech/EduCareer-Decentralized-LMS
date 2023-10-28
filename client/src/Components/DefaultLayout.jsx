@@ -14,7 +14,7 @@ function DefaultLayout() {
   }
 
   const navigateFunc = async()=>{
-    const did = localStorage.getItem('userDid');
+    const did = sessionStorage.getItem('userDid');
     if(did){
       navigate('/Welcome')
     }else{

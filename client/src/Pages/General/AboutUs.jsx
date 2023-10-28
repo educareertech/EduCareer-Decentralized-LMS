@@ -16,7 +16,7 @@ function AboutUs() {
                                 <h1>Creating better</h1>
                                 <h1><b>Decentralised Solutions</b></h1>
                                 <p>EduCareer is a leading provider of online training in Web3 and Blockchain Technology, with a focus on developing Decentralized Applications (DApps) for promoting transparency, security, and sustainability in government and social sector organizations. Our mission is to create an ecosystem of Decentralized Autonomous Organizations (DAOs) to reduce poverty, unemployment, and economic challenges for the youth of the world community. We offer comprehensive training programs in various areas of Blockchain technology and DApp development, including Ethereum, Hyperledger, and Corda. Our courses are designed to provide students with hands-on experience through interactive labs and real-time projects, enabling them to acquire the necessary skills to succeed in the Blockchain industry.</p>
-                                {!localStorage.getItem('userDid') &&
+                                {!sessionStorage.getItem('userDid') &&
                                     <button className='generalButton'>Start Now</button>
                                 }
                             </div>

@@ -11,20 +11,20 @@ function MenuLayout(props) {
 
    
     const handleItemClick = (item)=>{
-        localStorage.removeItem('clicked')
-        localStorage.setItem('clicked', item)
+        sessionStorage.removeItem('clicked')
+        sessionStorage.setItem('clicked', item)
         setItemClicked(item);
     }
 
     useEffect(()=>{
         setDefaultItem(props?.menuItems[0])
-        const clicked = localStorage.getItem('clicked');
+        const clicked = sessionStorage.getItem('clicked');
         if(clicked){
             setItemClicked(clicked);
         }
     },[])
     useEffect(()=>{
-        localStorage.removeItem('clicked');
+        sessionStorage.removeItem('clicked');
     },[props])
 
     return (

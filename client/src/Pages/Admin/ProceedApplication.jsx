@@ -17,7 +17,7 @@ function ProceedApplication() {
     const [transactionMessage, setTransactionMessage] = useState();
 
     console.log(params.title);
-    console.log(localStorage.getItem('ApplicationIndex'));
+    console.log(sessionStorage.getItem('ApplicationIndex'));
 
 
     const closeModal = () => {
@@ -26,7 +26,7 @@ function ProceedApplication() {
 
     const getApplicantInfo = async () => {
         const contract = await mainContract();
-        const applicantDid = localStorage.getItem('applicantProceeding');
+        const applicantDid = sessionStorage.getItem('applicantProceeding');
         const qualif_id = params.id;
         console.log(qualif_id);
         console.log(applicantDid);
@@ -53,7 +53,7 @@ function ProceedApplication() {
         const applicantDid = sessionStorage.getItem('applicantProceeding');
         const role = sessionStorage.getItem('ApplicantRole');
         const qualif_id = params.id;
-        const _index = localStorage.getItem('ApplicationIndex');
+        const _index = sessionStorage.getItem('ApplicationIndex');
         console.log(applicantDid, qualif_id, _index, rollNum, role);
         
         try {
@@ -69,7 +69,7 @@ function ProceedApplication() {
     const rejectApplication = async () => {
         const contract = await mainContract(true);
         const qualif_id = params.id;
-        const _index = localStorage.getItem('ApplicationIndex');
+        const _index = sessionStorage.getItem('ApplicationIndex');
         try {
             const tx = await contract.rejectApplication(qualif_id, _index)
             await tx.wait();

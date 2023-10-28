@@ -15,7 +15,7 @@ function Certificates() {
 
     const getMyCertificates = async () => {
         console.log("Inside My Certificates");
-        const did = localStorage.getItem('userDid');
+        const did = sessionStorage.getItem('userDid');
         const contract = await VC_Contract(true);
         const credentials = await contract.getUserCredentialIds(did);
         console.log(credentials[0])

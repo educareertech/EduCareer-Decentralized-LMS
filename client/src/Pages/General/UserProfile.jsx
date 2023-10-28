@@ -99,7 +99,7 @@ function UserProfile() {
 
     const getQualifInfo = async () => {
         const contract = await mainContract();
-        const userDid = localStorage.getItem('userDid');
+        const userDid = sessionStorage.getItem('userDid');
         console.log(userDid);
         try {
             const info = await contract.getStudentById(userDid);
@@ -353,7 +353,7 @@ function UserProfile() {
                         </div>
                     </Modal> */}
 
-            {/* {localStorage.getItem('providerMode') && providerDetail &&
+            {/* {sessionStorage.getItem('providerMode') && providerDetail &&
                         <div className='ProviderProfile'>
                             <h3>Provider Profile</h3>
 

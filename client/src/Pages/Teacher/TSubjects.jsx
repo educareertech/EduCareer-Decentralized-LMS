@@ -11,12 +11,12 @@ function TSubjects() {
   const navigate = useNavigate();
 
   const getAllSubject = async () => {
-    localStorage.removeItem('allSubjects');
+    sessionStorage.removeItem('allSubjects');
     const contract = await mainContract();
-    const did = localStorage.getItem('userDid');
+    const did = sessionStorage.getItem('userDid');
     const subjects = await contract.getSubjectAssigned(did);
     console.log("These are actual Subjects", subjects);
-    localStorage.setItem('allSubjects', JSON.stringify(subjects));
+    sessionStorage.setItem('allSubjects', JSON.stringify(subjects));
     setAllSubjects(subjects);
     // console.log("These are Subjects ", utils.parseBytes32String(subjects[0]))
   }
@@ -24,11 +24,11 @@ function TSubjects() {
   useEffect(() => {
     const fetch = async () => {
       await getAllSubject();
-      const _subjecs = localStorage.getItem('allSubjects');
+      const _subjecs = sessionStorage.getItem('allSubjects');
       if (_subjecs) {
         const parsed = JSON.parse(_subjecs);
         setAllSubjects(parsed);
-        console.log("localStorage", parsed)
+        console.log("sessionStorage", parsed)
       }
     }
     fetch();

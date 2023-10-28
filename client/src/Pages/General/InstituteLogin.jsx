@@ -52,7 +52,7 @@ function InstituteLogin() {
     const fetchInstInfo = async (e) => {
         e.preventDefault();
         const contract = await mainContract();
-        const did = localStorage.getItem('userDid');
+        const did = sessionStorage.getItem('userDid');
 
         if (loginRole == "Admin") {
             try {

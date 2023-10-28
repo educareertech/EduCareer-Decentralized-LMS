@@ -112,7 +112,7 @@ function CreateInstitute() {
         // const CertifContract = await VC_Contract(true);
         const url = await uploadInfoToIpfs();
         // const url = "Ye Hy Hash";
-        const did = localStorage.getItem("userDid");
+        const did = sessionStorage.getItem("userDid");
         const { title, about } = instAttribs;
         console.log(title, url, did, instituteRoles);
         try {

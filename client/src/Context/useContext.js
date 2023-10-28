@@ -29,7 +29,7 @@ const AppContext = (props) => {
 
             const signer = web3Provider.getSigner();
             const address = await signer.getAddress();
-            localStorage.setItem('userAddress', address);
+            sessionStorage.setItem('userAddress', address);
 
             if (needSigner) {
                 return signer;
