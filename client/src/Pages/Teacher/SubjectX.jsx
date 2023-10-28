@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import MenuLayout from '../../Components/MenuLayout'
 import { useParams } from 'react-router-dom';
 import { ContextState } from '../../Context/useContext';
-import e from 'cors';
+
 
 function SubjectX() {
   const {mainContract, ipfs} = ContextState();
