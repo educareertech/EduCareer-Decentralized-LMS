@@ -1,0 +1,15 @@
+At our Company EduCareer, I have made Blockchain based decetralized Learning management Platform, in which we are providing the service that anyone can subscribe our service and can 
+manage their Educational institutes Management system, on our platform, the main thing is our platform will take care of their institute data, more securely because,
+we are using Blockchain technology, in which smart contract will store and manage data more securily, by using the Blockchain and  smart contract, the management, storage and control 
+of the whole institute system will be carried on securily. The access management of the system is also carried out by smart contract, so it is great feature of the system that
+anyone without access can never get into the system, or any user can access only that data which is meant to be accessed by that user.
+The process of our system is that anyone can visit our platform, get the know-how of our system and then can subscribe to the platform, after subscribing he have all facilities
+of learning management system, where he will have his own institute learning management system. he will get access to the admin dashboard, where he can manage all LMS 
+functionalities such that, Registering Qualifications in his system,  receiving students application for those qualifications, registering students by accepting those applications
+or rejecting the application.He also will have access to all the teachers and students registered in the institute's qualifications. Other than teachers and students he also 
+can register other staff members in his institute, and will have access to those members as well.
+On the other hand any one who want to apply as teacher or student in any institute registered on EduCareer platform first will get and can explore all institutes registered on our 
+system, he can explore information of the institutes and qualifications of those institutes, and then can apply in any qualification of any institute as a teacher or student, 
+As each institute and each qualification in it have given a unique key as identifier, so the visitor can also get institute as well as qualification by that identifier and
+then apply in it,,
+After admin accept the request of the teacher or student he/she can use his did to lo

@@ -1,8 +1,15 @@
 export const projectId = "2DOJC0wv4QSFUWiDOw8ChpQBySv";
 export const projectSecretKey = "7335853015c063ff24bc539f8600baa0";
-export const EduCareer_LMS_ADDR = '0xa27bC320252d51EEAA24BCCF6cc003979E485860';
-export const Identity_Management_Contract = '0xd0F350b13465B5251bb03E4bbf9Fa1DbC4a378F3';
-export const VC_CONTRACT_ADDRESS = '0x920bE130B50Dc729e778C8b4DcFE5A94D733AbF6';
+// Local Host Address
+// export const EduCareer_LMS_ADDR = '0xa27bC320252d51EEAA24BCCF6cc003979E485860';
+// export const Identity_Management_Contract = '0xd0F350b13465B5251bb03E4bbf9Fa1DbC4a378F3';
+// export const VC_CONTRACT_ADDRESS = '0x920bE130B50Dc729e778C8b4DcFE5A94D733AbF6';
+
+// Sepolia Addresses
+export const EduCareer_LMS_ADDR = '0x9CdD135652905C71e66E6f05e6b9A1517EB4a359';
+export const Identity_Management_Contract = '0xC4ECB2aEe4D554Be66eFD2a0F6cAA9b804835f33';
+export const VC_CONTRACT_ADDRESS = '0x5Cc867d1eeE73A66eCA5b8b722e59f11AD115a32';
+
 export const EduCareer_LMS_ABI = [
     {
         "inputs": [
@@ -87,6 +94,11 @@ export const EduCareer_LMS_ABI = [
                 "type": "bytes32"
             },
             {
+                "internalType": "bytes32",
+                "name": "instId",
+                "type": "bytes32"
+            },
+            {
                 "internalType": "string",
                 "name": "title",
                 "type": "string"
@@ -95,6 +107,11 @@ export const EduCareer_LMS_ABI = [
                 "internalType": "string",
                 "name": "qualifInfo",
                 "type": "string"
+            },
+            {
+                "internalType": "bool",
+                "name": "registered",
+                "type": "bool"
             }
         ],
         "stateMutability": "view",
@@ -319,6 +336,11 @@ export const EduCareer_LMS_ABI = [
                         "internalType": "uint256",
                         "name": "qulif_count",
                         "type": "uint256"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "registered",
+                        "type": "bool"
                     }
                 ],
                 "internalType": "struct EduCareer_LMS.Institute",
@@ -412,6 +434,11 @@ export const EduCareer_LMS_ABI = [
                         "type": "bytes32"
                     },
                     {
+                        "internalType": "bytes32",
+                        "name": "instId",
+                        "type": "bytes32"
+                    },
+                    {
                         "internalType": "string",
                         "name": "title",
                         "type": "string"
@@ -435,6 +462,11 @@ export const EduCareer_LMS_ABI = [
                         "internalType": "bytes32[]",
                         "name": "teachers",
                         "type": "bytes32[]"
+                    },
+                    {
+                        "internalType": "bool",
+                        "name": "registered",
+                        "type": "bool"
                     }
                 ],
                 "internalType": "struct EduCareer_LMS.Qualification",
