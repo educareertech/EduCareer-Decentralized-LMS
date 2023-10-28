@@ -228,7 +228,6 @@
 .welcomeLandingSection .mainPageBoxes div{
     width: 15vw;
     height: 15vw;
-    /* border: 1px solid white; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -238,7 +237,6 @@
 
 }
 .welcomeLandingSection .mainPageBoxes div:hover{
-    /* opacity: .9; */
     color: white;
     margin-left: 0vw;
     z-index: 1;
@@ -251,7 +249,6 @@
 }
 .mainPageBoxes div:nth-child(2){
     background-color: #30e65a;
-    /* margin: .5vw 0vw 0 -2vw; */
     margin-left: -6vw;
 }
 .mainPageBoxes div:nth-child(3){
@@ -549,7 +546,6 @@
     background-color: #1869a0;
 }
 
-
 .showShadow {
     position: fixed;
     top: 25%;
@@ -604,7 +600,6 @@
 .WebServices>div {
     width: 100%;
     display: flex;
-    /* align-items: center; */
     justify-content: space-around;
 }
 
@@ -641,7 +636,6 @@
 }
 
 .WebServices div div h3 {
-    /* color: wheat; */
     font-weight: 600;
     border-radius: 20px;
     padding: .5vw 2vw;
@@ -760,7 +754,6 @@
 
 /* =================REGISTER PAGE==================== */
 .IssueCertModalInner form {
-    /* background-color: red; */
     width: 80%;
     height: 80%;
     color: white;
@@ -782,34 +775,6 @@
     width: 25vw;
     margin-top: 10px;
 }
-
-/* ===========WELCOME PAGE========= */
-/* .Welcome {
-    height: 90vh;
-}
-
-.btn1 {
-    margin-top: 10px;
-    padding: .8vw 0vw;
-    border-radius: 20px;
-    background-color: #BB2D0F;
-    width: 20vw;
-    color: white;
-} */
-
-/* .BlcDevServices {
-    width: 20vw;
-    height: 20vw;
-    background-image: url('../../public/dark.jpg');
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 10px;
-} */
-
 /* =================Qualifications========= */
 .qualification {
     display: flex;
@@ -847,12 +812,10 @@
     width: 100%;
     display: flex;
     align-items: center;
-    /* background-color: white; */
     margin-top: 2vw;
     border: 1px solid white;
     border-radius: 30px;
 
-    /* border: 2px solid red; */
 }
 
 .searchQualifById input {
@@ -1039,39 +1002,6 @@
 }
 
 
-/* ===============STUDENTS PAGE============== */
-/* .StudentsPage {
-    display: flex;
-}
-
-.StudentsPage .sideMenu {
-    background-color: #064976;
-    width: 20%;
-    height: 100vh;
-}
-
-.StudentsPage .sideMenu ul {
-    padding: 0%;
-}
-
-.StudentsPage .sideMenu ul li {
-    background-color: #0fa7de;
-    list-style: none;
-    padding: 1vw 1.5vw;
-    margin-top: 2vw;
-    font-size: 20px;
-    font-weight: 500;
-    cursor: pointer;
-}
-
-.StudentsPage .fullPage {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    margin-top: 4vw;
-    align-items: center;
-} */
-
 /* =============== PROVIDER PROFILE ============ */
 .ProviderAdminProfile {
     width: 97%;
@@ -1109,7 +1039,6 @@
     visibility: visible;
 }
 
-/* =============== GET REGISTERED CERTIFICATES ============ */
 /* ====================CERTIFICATES======================= */
 .certificate {
     display: flex;
@@ -1314,7 +1243,6 @@
     padding: 5px 0;
     border-radius: 6px;
     font-size: 10px;
-    /* Position the tooltip text */
     position: absolute;
     margin-right: 5vw;
     z-index: 1;
@@ -1324,9 +1252,6 @@
     visibility: visible;
 }
 
-/* .ProviderProfile table button {
-    margin-top: 10px;
-} */
 
 /* =================GET USER INFO===============
 .getUserInfo {
@@ -1598,5 +1523,3 @@
     width: 40vw;
 }
 
-
-/* ===================================== */
