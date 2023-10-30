@@ -36,7 +36,7 @@ import StdCertificates from "./Student/StdCertificates";
 import UserProfile from "./General/UserProfile";
 import CheckInfoAccess from "./General/CheckInfoAccess";
 import Qualification from "./General/Qualifications";
-import Developers from "./General/Developers";
+import Team from "./General/Team";
 import AboutUs from "./General/AboutUs";
 import PrePortal from "./General/PrePortal";
 import CreateInstitute from "./General/CreateInstitute";
@@ -47,4 +47,4 @@ import InstituteLogin from "./General/InstituteLogin";
 import PDFGenerator from "./General/PDFGenerator";
 
 
-export {PDFGenerator, Home, PrePortal, CreateInstitute, Login, Register, Welcome, AboutUs, Developers, Qualification, Institutes, AllStudents, AllTeachers, AllQualifications, Platform, AdminDashboard, AdminProfile, AdminQualifications, StartApplication, ViewApplications, StudentPortal, StudentProfile, TeacherDashboard, TeacherProfile,  TSubjects, SubjectX, Certificates, ProceedApplication, ProviderProfile, VC_Component, CreateCertificate, RegisteredCert, IssuedCert, StdCertificates, UserProfile, CheckInfoAccess, TechServices, InstituteLogin}
+export {PDFGenerator, Home, PrePortal, CreateInstitute, Login, Register, Welcome, AboutUs, Team, Qualification, Institutes, AllStudents, AllTeachers, AllQualifications, Platform, AdminDashboard, AdminProfile, AdminQualifications, StartApplication, ViewApplications, StudentPortal, StudentProfile, TeacherDashboard, TeacherProfile,  TSubjects, SubjectX, Certificates, ProceedApplication, ProviderProfile, VC_Component, CreateCertificate, RegisteredCert, IssuedCert, StdCertificates, UserProfile, CheckInfoAccess, TechServices, InstituteLogin}

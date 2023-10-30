@@ -1,1 +1,3 @@
 Implement the loader.
+Size of logo
+Change addresses

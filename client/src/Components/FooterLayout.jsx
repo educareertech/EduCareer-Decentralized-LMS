@@ -43,7 +43,7 @@ function FooterLayout() {
               <i><AddLocation></AddLocation></i><p>Al Shifa Trust Eye Hospital Campus: EduCareer Sindh Institute, Al Shifa Trust Eye Hospital, Opposite Sindh High Court Sukkur - Sindh - Pakistan Shikarpur Road Campus: EduCareer Sindh Institute, New City Society, Shikarpur Road Opposite Al Sajjad Restaurant Sukkur - Sindh - Pakistan</p>
             </div>
             <div className="contactBox">
-              <i><AddLocation></AddLocation></i><p>EduCareer Online: EduCareer Corporate Office, New City Society, Shikarpur Road Opposite Al Sajjad Restaurant Sukkur - Sindh - Pakistan Email: sohail@educareer.tech Web: https://educareer.tech +92 3000654925 EduCareer - Blockchain Training and Development EduCareer Corporate Office, New City Society, Shikarpur Road Opposite Al Sajjad Restaurant Sukkur - Sindh - Pakistan Email: sohail@educareer.tech Web: https://educareer.tech +923000654925</p>
+              <i><AddLocation></AddLocation></i><p>EduCareer Online: EduCareer Corporate Office, New City Society, Shikarpur Road Opposite Al Sajjad Restaurant Sukkur - Sindh - Pakistan Email: sohail@educareer.tech Web: <a href='https://educareer.tech'>https://educareer.tech</a> +92 3000654925 EduCareer - Blockchain Training and Development </p>
             </div>
           </div>
         </div>

@@ -12,4 +12,6 @@ On the other hand any one who want to apply as teacher or student in any institu
 system, he can explore information of the institutes and qualifications of those institutes, and then can apply in any qualification of any institute as a teacher or student, 
 As each institute and each qualification in it have given a unique key as identifier, so the visitor can also get institute as well as qualification by that identifier and
 then apply in it,,
-After admin accept the request of the teacher or student he/she can use his did to lo
+After admin accept the request of the teacher or student he/she can use his did to login to to the institute, and navigate to the relevant dashboard,
+
+the other main feature of this project is the identity Management Contract, that keep track of the all users, and provide Identity to each user by providing and managing the decentralized identifiers of the user.

@@ -15,6 +15,8 @@ function App() {
         <Route path='/AboutUs' element={<c.AboutUs />} />
         <Route path='/Platform' element={<c.Platform />} />
         <Route path='/PDFGenerator' element={<c.PDFGenerator />} />
+        <Route path='/Team' element={<c.Team />} />
+
 
         <Route element={<LoggedInRoutes />}>
           <Route path='/welcome' element={<c.Welcome />} />
@@ -22,7 +24,6 @@ function App() {
           <Route path='/Qualification/:id' element={<c.Qualification />} />
           <Route path='/StartApplication/:id' element={<c.StartApplication />} />
           <Route path='/InstituteLogin' element={<c.InstituteLogin />} />
-          <Route path='/Developers' element={<c.Developers />} />
           <Route path='/PrePortal' element={<c.PrePortal />} />
           <Route path='/CreateInstitute' element={<c.CreateInstitute />} />
           <Route path='/TechServices' element={<c.TechServices />} />

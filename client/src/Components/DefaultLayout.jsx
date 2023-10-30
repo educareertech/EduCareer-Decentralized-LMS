@@ -45,11 +45,11 @@ function DefaultLayout() {
             {sessionStorage.getItem('userDid') &&
               <li onClick={() => navigate('/UserProfile')}>Profile |</li>
             }
-            <li onClick={()=> navigate('/Platform')}>Platform |</li>
-            <li onClick={()=> navigate('/AboutUs')}>About Us |</li>
-            <li onClick={()=> navigate('/Developers')}>Developers |</li>
+            <li onClick={()=> navigate('/Platform')}>SERVICES |</li>
+            <li onClick={()=> navigate('/AboutUs')}>ABOUT US |</li>
+            <li onClick={()=> navigate('/Team')}>OUR TEAM |</li>
             {!sessionStorage.getItem('userDid') &&
-              <li onClick={() => navigate('/register')}>Sign In |</li>
+              <li onClick={() => navigate('/register')}>SIGN IN |</li>
             }
           </ul>
           <div className="buttonGroup">
